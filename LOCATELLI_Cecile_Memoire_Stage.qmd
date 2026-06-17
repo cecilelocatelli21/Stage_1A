@@ -21,7 +21,7 @@ editor: visual
 \begin{titlepage}
 \centering
 
-\includegraphics{ensai_logo_1.png}\\
+\includegraphics{Img/ensai_logo_1.png}\\
 \vspace{1.0cm}
 
 {\LARGE\textsc{Stage de découverte de la statistique publique}}\\
@@ -58,7 +58,7 @@ Marianne Fabre\\
 
 \tableofcontents
 
-# Description de l’environnement de travail et observations
+# Description de l’environnement de travail et observations\
 
 *6 pts (3 à 4 pages)*
 
@@ -66,11 +66,29 @@ Cette partie devra s’appuyer sur des entretiens dont la grille d’entretien s
 
 ## Service
 
-*bref historique, activité réalisée, personnel employé…* *centre(s) de décision, organigramme, intensité des lignes hiérarchiques, liens fonctionnels entre les différents services, ouverture sur l’extérieur…*
+Le stage se déroule à la Direction Générale[^1] (DG) de l'Insee située à Montrouge, au sein de la Direction des Etudes et Synthèses Economiques (DESE) dirigée par Cédric Audenis.
+[^1]: Organigramme en annexe 
+Cette direction est divisée en trois départements:
+- Département de la conjonture (DC)
+- Département des études économiques (DEE)
+- Département des comptes nationaux (DCN)
 
-## le management, les relations de travail, les relations humaines dans le cadre du travail
+Ce dernier département comprend comprend quatre divisions:\
+- Synthèses générales des comptes\
+- Synthèses des biens et services\
+- Comptes trimestriels\
+- Concepts, méthodes et évaluation des comptes nationaux\
 
-*Observation des relations sociales (rôle de la Direction des ressources humaines, rôle des syndicats…) et de la problématique hygiène sécurité et risques psychosociaux au sein de la structure d’accueil (acteurs et dispositifs). La problématique hygiène et sécurité relève des points abordés lors des CHSCT (comité d’hygiène, de sécurité et des conditions de travail) et non de la description des mesures d’hygiène de la structure d’accueil. La définition du plan de reprise d’activités suite à la crise sanitaire peut par exemple être décrite.* \## Analyse de deux indicateurs qualité sélectionnés dans le code de bonnes pratiques de la statistique européenne *Une sensibilisation aux critères de qualité des statistiques produites et diffusées par le système statistique public est également nécessaire. Cette partie s’appuiera sur les cours dispensés à l’Ensai. Vous analyserez le respect de deux indicateurs qualité du Code de bonnes pratiques de la statistique européenne (disponible sous https://www.insee.fr/fr/information/4140105). Cette analyse fera l’objet d’un encadré dans le rapport « Etude de deux indicateurs de qualité ». Ces indicateurs doivent être pris dans deux principes différents du Code (sur les 16). Après une introduction dans laquelle vous justifierez vos choix, vous rédigerez environ une dizaine de lignes d’argumentaire par indicateur. Pour réaliser cette analyse, vous devez lire le code de bonnes pratiques de la statistique européenne, accessible sur le site de l’Insee ou d’Eurostat, et vous appuyer sur vos propres observations et sur les échanges conduits avec différents agents de l’organisme d’accueil.*
+Les comptes trimestriels dirigés par Pauline Meinzel produisent les indicateurs économiques du PIB et de la croissance.\
+*bref historique, activité réalisée, personnel employé…* \
+*centre(s) de décision, organigramme, intensité des lignes hiérarchiques, liens fonctionnels entre les différents services, ouverture sur l’extérieur…*
+
+## Le management, les relations de travail, les relations humaines dans le cadre du travail
+
+*Observation des relations sociales (rôle de la Direction des ressources humaines, rôle des syndicats…) et de la problématique hygiène sécurité et risques psychosociaux au sein de la structure d’accueil (acteurs et dispositifs). La problématique hygiène et sécurité relève des points abordés lors des CHSCT (comité d’hygiène, de sécurité et des conditions de travail) et non de la description des mesures d’hygiène de la structure d’accueil. La définition du plan de reprise d’activités suite à la crise sanitaire peut par exemple être décrite.* \
+
+## Analyse de deux indicateurs qualité sélectionnés dans le code de bonnes pratiques de la statistique européenne \
+*Une sensibilisation aux critères de qualité des statistiques produites et diffusées par le système statistique public est également nécessaire. Cette partie s’appuiera sur les cours dispensés à l’Ensai. Vous analyserez le respect de deux indicateurs qualité du Code de bonnes pratiques de la statistique européenne (disponible sous https://www.insee.fr/fr/information/4140105). Cette analyse fera l’objet d’un encadré dans le rapport « Etude de deux indicateurs de qualité ». Ces indicateurs doivent être pris dans deux principes différents du Code (sur les 16). Après une introduction dans laquelle vous justifierez vos choix, vous rédigerez environ une dizaine de lignes d’argumentaire par indicateur. Pour réaliser cette analyse, vous devez lire le code de bonnes pratiques de la statistique européenne, accessible sur le site de l’Insee ou d’Eurostat, et vous appuyer sur vos propres observations et sur les échanges conduits avec différents agents de l’organisme d’accueil.*
 
 # Travaux confiés et description des missions
 
@@ -103,3 +121,9 @@ La partie doit être lisible par un lecteur non spécialiste du domaine ;
 - Quelles sont les qualités ou compétences que vous avez pu mettre en œuvre en termes de savoir-faire et savoir-être ?
 
 # Annexes {.unnumbered}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth, keepaspectratio]{Img/organigramme__dg_novembre_2025.pdf}
+\caption{Organigrame de la DG de l'Insee}
+\end{figure}
