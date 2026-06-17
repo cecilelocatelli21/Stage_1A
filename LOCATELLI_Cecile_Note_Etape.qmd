@@ -1,0 +1,12 @@
+---
+title: "Note d'étape"
+author: "cécile Loactelli"
+format: pdf
+editor: visual
+---
+
+Après la fin de votre première semaine de stage (pour un stage de 4 semaines) ou de votre troisième semaines ( pour un stage de 8 semaines), il vous est demandé de rédiger (en français ou en anglais) une note de 1 à 2 pages qui s’attache à décrire votre mission (environnement, objectifs, résultats attendus...), le timing prévisionnel des différentes étapes, les méthodologies utilisées (ou qui seront mobilisées) ainsi que l’état actuel de vos travaux. La note d’étape a pour objectif de vérifier le bon déroulement de votre stage.  
+
+Pour les stages d'une durée supérieure à 4 semaines, vous estimez la date de rendu de cette note d'étape. 
+
+Vous déposez cette note sur Moodle et vous l'envoyez par mail à votre référent pédagogique, en respectant l'appellation suivante "NOM_Prenom_etape" 
