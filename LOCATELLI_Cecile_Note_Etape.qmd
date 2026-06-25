@@ -15,10 +15,9 @@ format:
 lang: fr
 fontsize: 10pt
 papersize: a4
-geometry: top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm
+geometry: top=2cm, bottom=2cm, left=2cm, right=2cm
 editor: visual
 ---
-
 ------------------------------------------------------------------------
 
 Le stage se déroule du 15 juin au 24 juillet 2026 à la Direction Générale (DG) de l'Insee à Montrouge, au sein de la Direction des Etudes et Synthèses Economiques (DESE), au Département des Comptes Nationaux (DCN).
@@ -63,7 +62,7 @@ Dans le cadre du stage, il s’agit de comprendre le fonctionnement global de la
 
 *Semaine 1*
 
-Découverte de l'environnement de travail: matériel, logiciels, les sections et divisions environnantes
+Découverte de l'environnement de travail: matériel, logiciels, les sections et divisions environnantes, formation (Markdown/GitLab de la Division pour la mise à jour de Insee Méthodes), réunion (Insee - Banque de France)
 
 Découverte de la Comptabilité Nationale : comment sont construits le TES? le TEE? lecture de la documentation
 
@@ -85,16 +84,42 @@ Documents utilisés:
 
 - dossier des précédentes campagnes : fichiers excel, programmes R, documents sources
 
-Premiers pas vers l'automatisation
+Découverte et compréhension des premiers fichiers d'automatisation  déjà été mis en place. Poursuite du code.
 
 # Timing prévisionnel des différentes étapes
 
-???
+
+*Suivi de la chaine de production des comptes trimestriels (Semaine 3 et 4)*
+
+- processus de chargement des données, des indicateurs, 
+
+- suivi effectif de la chaine
+
+- Réunion commerce extérieur de la première estimation du T2 mi-juillet
+
+Cette chaine étant déjà automatisée, il est intéressant de s'en inspirer pour l'automatisation de la chaine annuelle, tant en terme d'organisation qu'en terme d'écriture des scripts.
+
+*Poursuite des travaux de codage en R*
+
+La structure du code se place dans la continuité de la production actuelle de la chaine annuelle.
+
+On doit rechercher un moyen de rendre la chaine opérationnelle même en l'absence de certaines données (par exemple: retard des fournisseurs)
+
+Il s'agit aussi d'anticiper sur les évolutions possibles (par exemple: changement de base, changement de nomenclature, changement des zones pays...) afin d’assurer la reproductibilité de la chaine et les comparaisons entre périodes. 
+ 
+
+*Mise en place d'un rapport de suivi en Quarto*
+
+*Tests sur le code*
+
+
 
 # Méthodologies utilisées
 
-Comunication: Tchap et Outlook
+- Communication: `Tchap` et `Outlook`
 
-Materiel et logiciels : Centre logiciel et Si\@moi
+- Gestion matériel et logiciel : `Centre logiciel` et `Si@moi`
 
-Données : AUS
+- Données et Traitements: `AUS`, `Toucan`, `Excel`, `RStudio`: utilisation des packages usuels (`tidyverse`, `dplyr` ...) ou spécifiques à la comptabilité nationale (`Ariege`)
+
+- La production annuelle doit respecter les règles du **Système Européen des Comptes (SEC)** ou **System of National Accounts 2025 (SNA)** en anglais, pour la transmission des comptes nationaux annuels à Eurostat et la comparabilité à l'échelle internationale.
