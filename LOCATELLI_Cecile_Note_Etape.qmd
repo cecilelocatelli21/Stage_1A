@@ -1,12 +1,100 @@
 ---
-title: "Note d'étape"
-author: "cécile Loactelli"
-format: pdf
+title: "Note d'étape - Stage 1A"
+subtitle: "Automatisation de la chaine de production des comptes annuels des Echanges extérieurs et Reste du Monde."
+author: "Cécile Locatelli"
+format: 
+  pdf:
+    number-sections: true
+    number-depth: 2
+    mainfont: "TeX Gyre Termes"
+    header-includes: |
+      \usepackage{enumitem}
+      \setlist[itemize]{label=$\bullet$}
+      \usepackage{pdflscape}
+      \usepackage{float}
+lang: fr
+fontsize: 10pt
+papersize: a4
+geometry: top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm
 editor: visual
 ---
 
-Après la fin de votre première semaine de stage (pour un stage de 4 semaines) ou de votre troisième semaines ( pour un stage de 8 semaines), il vous est demandé de rédiger (en français ou en anglais) une note de 1 à 2 pages qui s’attache à décrire votre mission (environnement, objectifs, résultats attendus...), le timing prévisionnel des différentes étapes, les méthodologies utilisées (ou qui seront mobilisées) ainsi que l’état actuel de vos travaux. La note d’étape a pour objectif de vérifier le bon déroulement de votre stage.  
+------------------------------------------------------------------------
 
-Pour les stages d'une durée supérieure à 4 semaines, vous estimez la date de rendu de cette note d'étape. 
+Le stage se déroule du 15 juin au 24 juillet 2026 à la Direction Générale (DG) de l'Insee à Montrouge, au sein de la Direction des Etudes et Synthèses Economiques (DESE), au Département des Comptes Nationaux (DCN).
 
-Vous déposez cette note sur Moodle et vous l'envoyez par mail à votre référent pédagogique, en respectant l'appellation suivante "NOM_Prenom_etape" 
+# Environnement
+
+Le DCN compte quatre divisions:
+
+- Concepts, Méthodes et Evaluation des comptes nationaux
+
+- Synthèses des Biens et Services (SBS)
+
+- Synthèses Générales des Comptes (SGC)
+
+- Comptes trimestriels
+
+Au sein de cette dernière division dirigée par Pauline Meinzel, Marianne Fabre assure la responsabilité de la section Echanges extérieurs et Compte du Reste du Monde (KOM). Elle produit:
+
+- les exogènes concernant les échanges extérieurs de biens et services pour élaborer la synthèse du Tableau des Entrées Sorties (TES) et calculer le produit intérieur brut (PIB),
+
+- le compte Reste du monde pour élaborer le Tableau Economique d'Ensemble (TEE)) et les comptes des secteurs institutionnels.
+
+La spécificité de la section KOM est de produire pour les comptes trimestriels mais aussi pour les comptes annuels. Elle est donc en étroite collaboration au sein des comptes trimestriels avec les sections Synthèse des comptes d'agents (TEE), Synthèse des comptes des biens et services (TES) et Consommation et Epargne, mais aussi avec leurs "équivalents" pour les comptes annuels que sont les divisions SBS et SGC.
+
+# Mission et Objectifs
+
+Chaque année, les comptes annuels de la nation sont publiés pour les années N-1, N-2 et N-3, dans leur version respectivement définitive, semi-définitive et provisoire. Actuellement, la chaine de production des comptes annuels des échanges extérieurs est faite par la manipulation de multiples fichiers Excel liés entre eux, actualisés pour chaque nouvelle version de compte avec des données externes provenant de sources diverses : données douanières, balance des paiements, données produites par d’autres sections de l’Insee.
+
+L’objectif à long terme est d’abandonner progressivement ce mode de travail long, non reproductible et source d’erreurs, en passant en R la chaine de production du compte des échanges extérieurs et du reste du monde. Pour cela, la chaine a été divisée en blocs pouvant être traités séparément dans un premier temps :
+
+- échanges de biens en valeur,
+- échanges de biens en volume,
+- négoce international,
+- travail à façon,
+- échanges de services en valeurs,
+- droits de douanes,
+- compte du Reste du monde.
+
+Dans le cadre du stage, il s’agit de comprendre le fonctionnement global de la chaine et plus particulièrement du premier bloc "échanges de biens en valeur", aussi bien d’un point de vue technique qu’économique et de comptabilité nationale, de proposer en discussion avec Marianne Fabre une architecture de codes pour le traiter, puis de développer les programmes R automatisant ce bloc, et enfin les recetter avec les données d’une année précédente.
+
+# Etat actuel des travaux
+
+*Semaine 1*
+
+Découverte de l'environnement de travail: matériel, logiciels, les sections et divisions environnantes
+
+Découverte de la Comptabilité Nationale : comment sont construits le TES? le TEE? lecture de la documentation
+
+*Semaine 2*
+
+Découverte et début d'analyse du fonctionnement de la chaine actuelle de production des comptes annuels:
+
+- sources : format, origine, calendrier
+
+- nomenclatures,
+
+- liens entre les différentes étapes,
+
+- corrections,
+
+Documents utilisés:
+
+- guide à l'élaboration des comptes annuels
+
+- dossier des précédentes campagnes : fichiers excel, programmes R, documents sources
+
+Premiers pas vers l'automatisation
+
+# Timing prévisionnel des différentes étapes
+
+???
+
+# Méthodologies utilisées
+
+Comunication: Tchap et Outlook
+
+Materiel et logiciels : Centre logiciel et Si\@moi
+
+Données : AUS
